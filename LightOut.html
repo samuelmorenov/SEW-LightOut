@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Light Out</title>
+    <link rel="stylesheet" type="text/css" href="LightOut.css"/>
+    <script src="LightOut.js"></script>
+    
+</head>
+
+<body>
+  <div id="tablero">
+        <div class="fila">
+            <div><input type="button" class="button on" id="0" onclick="luces.tocar(0)" value=" "/></div>
+            <div><input type="button" class="button on" id="1" onclick="luces.tocar(1)" value=" "/></div>
+            <div><input type="button" class="button on" id="2" onclick="luces.tocar(2)" value=" "/></div>
+            <div><input type="button" class="button on" id="3" onclick="luces.tocar(3)" value=" "/></div>
+            <div><input type="button" class="button on" id="4" onclick="luces.tocar(4)" value=" "/></div>
+        </div>
+      
+        <div class="fila">
+            <div><input type="button" class="button on" id="5" onclick="luces.tocar(5)" value=" "/></div>
+            <div><input type="button" class="button on" id="6" onclick="luces.tocar(6)" value=" "/></div>
+            <div><input type="button" class="button on" id="7" onclick="luces.tocar(7)" value=" "/></div>
+            <div><input type="button" class="button on" id="8" onclick="luces.tocar(8)" value=" "/></div>
+            <div><input type="button" class="button on" id="9" onclick="luces.tocar(9)" value=" "/></div>
+        </div>
+      
+        <div class="fila">
+            <div><input type="button" class="button on" id="10" onclick="luces.tocar(10)" value=" "/></div>
+            <div><input type="button" class="button on" id="11" onclick="luces.tocar(11)" value=" "/></div>
+            <div><input type="button" class="button on" id="12" onclick="luces.tocar(12)" value=" "/></div>
+            <div><input type="button" class="button on" id="13" onclick="luces.tocar(13)" value=" "/></div>
+            <div><input type="button" class="button on" id="14" onclick="luces.tocar(14)" value=" "/></div>
+        </div>
+      
+        <div class="fila">
+            <div><input type="button" class="button on" id="15" onclick="luces.tocar(15)" value=" "/></div>
+            <div><input type="button" class="button on" id="16" onclick="luces.tocar(16)" value=" "/></div>
+            <div><input type="button" class="button on" id="17" onclick="luces.tocar(17)" value=" "/></div>
+            <div><input type="button" class="button on" id="18" onclick="luces.tocar(18)" value=" "/></div>
+            <div><input type="button" class="button on" id="19" onclick="luces.tocar(19)" value=" "/></div>
+        </div>
+      
+        <div class="fila">
+            <div><input type="button" class="button on" id="20" onclick="luces.tocar(20)" value=" "/></div>
+            <div><input type="button" class="button on" id="21" onclick="luces.tocar(21)" value=" "/></div>
+            <div><input type="button" class="button on" id="22" onclick="luces.tocar(22)" value=" "/></div>
+            <div><input type="button" class="button on" id="23" onclick="luces.tocar(23)" value=" "/></div>
+            <div><input type="button" class="button on" id="24" onclick="luces.tocar(24)" value=" "/></div>
+        </div>
+
+    </div>
+    <p>Lights Out consiste en una cuadrícula de luces de 5 por 5. Cuando comienza el juego, se enciende un patrón aleatorio de luces. Al presionar cualquiera de las luces, se encenderá si esta apagada y se apagará si esta encendida, al igual que sus adyacentes. El objetivo del rompecabezas es apagar todas las luces, preferiblemente en el menor número de movimientos posible.</p>
+    <footer>
+        <a href="https://validator.w3.org/check?uri=referer">
+        <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_White.png"
+             alt="HTML5 Válido"
+             title="HTML5 Válido"
+             height="44"/>
+        </a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+             alt="¡CSS Válido!"
+             title="¡CSS Válido!"
+             height="31"/>
+        </a>
+    </footer>
+    <script>this.luces.crearMatriz();</script>
+    
+</body>
+</html>

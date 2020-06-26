@@ -1,0 +1,54 @@
+body {
+    font: 400 15px;
+    line-height: 1.8;
+    color: #051124;
+    background-color: black ;
+    background: linear-gradient(to right, black, #2177F7); 
+    /*margin: 1em 10em 1em;*/
+  }
+#tablero{
+    margin:0% auto 0;
+    width:100%;
+    background-color: transparent;
+    padding: 0em;
+    padding-top: 0.5em;
+}
+#tablero .fila{
+    display:table;
+    width:100%;
+    text-align:center;
+}
+#tablero .fila div{
+    display:table-cell;
+    font-size:150%;
+    padding:1%;
+    width:10%;
+    height: 5em;
+}
+#tablero .fila .boton{
+    width:25%;
+
+    padding:1%;
+}
+
+.button {
+    height: 100%;
+    border: solid;
+    border-color: #002783;
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    box-shadow: rgba(0,0,0,0.4) 0em 0.05em;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 0.5em;
+}
+p{
+    background: #000080;
+    color: #dfdfef;
+    background:rgba(0,0,80,0.5);
+
+}
+footer{
+    text-align:right;
+}
