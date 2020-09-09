@@ -1,5 +1,7 @@
 # [SEW]  Software y Estandares para la Web
 
+[Desplegado aquí](https://samuelmorenov.github.io/SEW-LightOut/LightOut.html)
+
 ## Light Out
 
 *Escuela de Ingeniería Informática - Uniovi*
