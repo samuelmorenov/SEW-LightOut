@@ -5,6 +5,8 @@ class LightOut {
         this.filas = f;
         this.columnas = c;
         this.total = (this.filas*this.columnas)-1;
+        this.matriz = [];
+        this.matrizTrucos = [];
         this.getPass();
     }
 
@@ -19,20 +21,10 @@ class LightOut {
     }
 
     crearMatriz(){//Metodo que establece las luces enciendidas o apagadas con un patron por defecto
-        /*for (var i = 0; i < this.total; i++) {
+        for (var i = 1; i < this.total+1; i++) {
             this.matriz[i]="false";
             this.matrizTrucos[i]="false";
-        }*/
-        this.matriz= ["false", "false", "false", "false", "false", 
-                      "false", "false", "false", "false", "false", 
-                      "false", "false", "false", "false", "false", 
-                      "false", "false", "false", "false", "false", 
-                      "false", "false", "false", "false", "false"];
-        this.matrizTrucos= ["false", "false", "false", "false", "false", 
-                            "false", "false", "false", "false", "false", 
-                            "false", "false", "false", "false", "false", 
-                            "false", "false", "false", "false", "false", 
-                            "false", "false", "false", "false", "false"];
+        }
         var clicks = 25;//Numero de clicks que se haran aleatoriamente para darle complejidad
         for (var i = 0; i < clicks; i++) {
             var posicion = Math.floor(Math.random() * this.total);
