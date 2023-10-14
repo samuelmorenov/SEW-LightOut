@@ -13,8 +13,10 @@ body {
     padding: 0em;
     padding-top: 0.5em;
 }
-#tablero .fila{
-    display:table;
+    #tablero .fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width:100%;
     text-align:center;
 }
@@ -27,6 +29,7 @@ body {
     width:10%;
     height: 5em;
 }
+
 #tablero .fila .boton{
     width:25%;
 
